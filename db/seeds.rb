@@ -9,14 +9,14 @@ require 'faker'
 #   Character.create(name: 'Luke', movie: movies.first)
 
 #remplis ma table user (via la class) de 10 faux noms avec leurs mails
-3.times do
+10.times do
 	user = User.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, email: Faker::Internet.email)
 end
 
 #remplis ma table article (via la class) avec 10 faux articles
-3.times do 
-	Article.create(title: Faker::Friends.character, content: Faker::Friends.quote,  user_id: rand(1..10))
-	article = Article.update(category_id: 1)
+10.times do 
+	article = Article.create(title: Faker::Friends.character, content: Faker::Friends.quote,  user_id: rand(1..10))
+	 Article.update(category_id: 1)
 end
 
 #remplis ma table category (via la class) avec 5 catégories 
