@@ -15,8 +15,7 @@ end
 
 #remplis ma table article (via la class) avec 10 faux articles
 10.times do 
-	article = Article.create(title: Faker::Friends.character, content: Faker::Friends.quote,  user_id: rand(1..10))
-	 Article.update(category_id: 1)
+	article = Article.create(title: Faker::Friends.character, content: Faker::Friends.quote,  user_id: rand(1..10), category_id: 1)
 end
 
 #remplis ma table category (via la class) avec 5 catégories 
