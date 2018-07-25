@@ -1,9 +1,3 @@
-Tout se passe dans db ,
-		faites rails:db seed pour remplir votre bdd
-		et faites un tour dans le dossier migrate pour voir la création des tables.
-
-Ainsi que dans app/models
-		pour voir le contenu de mes class
 # Blog
 
 Exercice de création et d'utilisation de bases de données avec une application rails, en utilisant la gem ActiveRecord.
