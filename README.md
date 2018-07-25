@@ -10,6 +10,10 @@ Installation des gems nécéssaires
 Aller dans le dossier 'activateRuby' puis entrer la commande :
 
 $ bundle install
+
+
+$rails db:migrate (pour créer votre base de données)
+
 $rails db:seed (pour remplir votre base de données)
 
 Projet réalisé par Laetitia69
